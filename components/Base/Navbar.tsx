@@ -17,7 +17,7 @@ const Navbar = (props: Props) => {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
         <Link href='/' className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img className="w-14" src={Logo.src} alt="" />
-          <span className="ml-3 text-xl">BidBazaar</span>
+          <span className="ml-3 text-xl">Bid</span>
         </Link>
         <nav className="md:ml-4 md:py-2 md:pl-4	flex flex-wrap items-center text-base justify-center">
           <Link href="/" className="mr-2 hover:text-white hover:bg-mobile py-2 px-3 rounded">Home</Link>
